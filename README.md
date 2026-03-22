@@ -32,7 +32,7 @@ Two flows handle the core logic.
 
 *GenerateIntakeSummary* accepts a unique PatientID, retrieves the complete patient record, constructs an engineered prompt combining the patient data with a structured clinical template, calls the Anthropic Claude API via HTTP, and returns the generated intake summary to the agent.
 
-**AI layer - Anthropic Claude Haiku**
+**AI layer - Anthropic Claude Sonnet 4.5**
 
 Called directly via REST API from Power Automate. Claude receives the patient data and clinical template as injected context and generates professional clinical narrative across all sections of the intake summary - interpreting vital signs, synthesizing a clinical narrative, and producing clinically appropriate recommended next steps based on the full patient presentation.
 
