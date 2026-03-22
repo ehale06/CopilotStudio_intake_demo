@@ -6,7 +6,7 @@ A fully functional AI agent built on Microsoft Copilot Studio that automates cli
 
 ## Demo
 
-*Demo video coming soon.*
+[Watch the demo] https://www.loom.com/share/4e666cbb0d874827ab3db236a1b35e6b
 
 ---
 
