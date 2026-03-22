@@ -81,7 +81,7 @@ In a production deployment or within an organizational Microsoft 365 environment
 
 - Microsoft Copilot Studio
 - Power Automate
-- Anthropic Claude Haiku via REST API
+- Anthropic Claude Sonnet via REST API
 - Python with Faker and pandas for synthetic data generation
 - GitHub for dataset hosting
 
