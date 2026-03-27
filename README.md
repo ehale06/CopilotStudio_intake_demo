@@ -73,7 +73,7 @@ The dataset was generated from three merged synthetic data sources: patient demo
 
 In this prototype the patient data is hosted as a JSON file on GitHub and retrieved via HTTP GET request from Power Automate. This approach was a practical workaround specific to the development environment used - a William and Mary institutional Microsoft account with restricted SharePoint and OneDrive Business connector access in Power Automate.
 
-In a production deployment or within an organizational Microsoft 365 environment the data layer would be implemented using SharePoint lists, Microsoft Dataverse, or Azure SQL - all of which integrate natively with Power Automate without the HTTP workaround. The agent and flow architecture remains identical regardless of the underlying data storage choice.
+In a production deployment or within an organizational Microsoft 365 environment the data layer could be implemented with a more robust backend, using SharePoint lists, Microsoft Dataverse, or Azure SQL - all of which integrate natively with Power Automate without the HTTP workaround. The agent and flow architecture remains identical regardless of the underlying data storage choice.
 
 ---
 
